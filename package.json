@@ -1,0 +1,47 @@
+{
+    "title": "Aleta Engenharia",
+    "name": "aleta-engenharia",
+    "version": "5.0.9",
+    "scripts": {
+        "start": "node_modules/.bin/gulp watch",
+        "build": "node_modules/.bin/gulp"
+    },
+    "description": "Aleta Engenharia - Serviços de Engenharia Elétrica",
+    "keywords": [
+        "engenharia eletrica",
+        "engenharia"
+    ],
+    "homepage": "http://aleta.com.br",
+    "bugs": {
+        "url": "https://github.com/fredpolicarpo/aleta-website/issues",
+        "email": "admin@aleta.com.br"
+    },
+    "license": "MIT",
+    "author": "Fred Policarpo",
+    "contributors": [
+        "Fred Policarpo (http://fredpolicarpo.github.io/)"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/fredpolicarpo/aleta-website.git"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "5.10.2",
+        "bootstrap": "4.3.1",
+        "jquery": "3.4.1",
+        "jquery.easing": "^1.4.1"
+    },
+    "devDependencies": {
+        "browser-sync": "2.26.7",
+        "del": "5.1.0",
+        "gulp": "4.0.2",
+        "gulp-autoprefixer": "7.0.0",
+        "gulp-clean-css": "4.2.0",
+        "gulp-header": "2.0.9",
+        "gulp-plumber": "^1.2.1",
+        "gulp-rename": "1.4.0",
+        "gulp-sass": "4.0.2",
+        "gulp-uglify": "3.0.2",
+        "merge-stream": "2.0.0"
+    }
+}
