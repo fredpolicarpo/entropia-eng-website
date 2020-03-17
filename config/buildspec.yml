@@ -10,3 +10,4 @@ artifacts:
     - css/grayscale.min.css
     - img/*
     - js/grayscale.min.js
+    - vendor/*
