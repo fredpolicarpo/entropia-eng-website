@@ -47,18 +47,18 @@
   }
   #mainNav .navbar-brand {
     padding: .5rem 0;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(22, 22, 22, 0.5);
   }
   #mainNav .nav-link {
     transition: none;
     padding: 2rem 1.5rem;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(22, 22, 22, 0.75);
   }
   #mainNav .nav-link:hover {
-    color: rgba(255, 255, 255, 0.75);
+    color: rgba(22, 22, 22, 0.875);
   }
   #mainNav .nav-link:active {
-    color: white;
+    color: gray;
   }
   #mainNav.navbar-shrink {
     background-color: #fff;
@@ -88,13 +88,12 @@
   position: relative;
   width: 100%;
   height: auto;
-  min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/bg-masthead.jpg");
+  background: url("../img/logo.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-size: cover;
+  background-size: contain;
 }
 
 .masthead h1 {
