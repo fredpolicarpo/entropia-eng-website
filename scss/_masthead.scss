@@ -4,11 +4,13 @@
   height: auto;
  // min-height: 15rem;
   padding: 15rem 0;
+  padding-top: 1em;
   background: url('../img/logo.svg');
-  background-position: center;
+  background-position: top 50em;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: contain;
+  background-position-y: 0.75em;
   h1 {
     font-family: 'Varela Round';
     font-size: 2.5rem;
