@@ -89,13 +89,11 @@
   width: 100%;
   height: auto;
   padding: 15rem 0;
-  padding-top: 1em;
   background: url("../img/logo.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: contain;
-  background-position-y: 0.75em;
 }
 
 .masthead h1 {
